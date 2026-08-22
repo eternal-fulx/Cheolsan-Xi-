@@ -2,7 +2,6 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8">
-  <!-- user-scalable=no 유지 및 모바일 기본 뷰포트 설정 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>철산자이브리에르 실거주 입주민 오픈채팅방 인증 시스템</title>
   <style>
@@ -13,16 +12,12 @@
       margin: 0;
       padding: 0;
       width: 100%;
-      height: 100%;
-      /* dvh 지원 안 되는 구형 브라우저 대비 100vh 지정 후 100dvh 적용 */
+      /* height 고정을 제거하여 줌인 시 레이아웃 갇힘 방지 */
       min-height: 100vh;
-      min-height: 100dvh;
       background-color: #ffffff;
-      /* body 전체 스크롤을 허용하여 iframe 내부 스크롤 갇힘 방지 */
       overflow-x: hidden;
       overflow-y: auto;
       
-      /* 폰트 깨짐 방지, 선명도 향상 및 모바일 자동 폰트 축소/확대 방지 (핵심!) */
       -webkit-text-size-adjust: 100%;
       -moz-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -34,18 +29,15 @@
     
     iframe {
       width: 100%;
-      height: 100%;
-      min-height: 100vh;
-      min-height: 100dvh;
+      height: 100vh;
       border: none;
       outline: none;
       display: block;
-      /* iOS Safari/카카오톡 터치 스크롤 매끄럽게 처리 */
       -webkit-overflow-scrolling: touch;
     }
   </style>
 </head>
 <body>
-  <iframe src="https://script.google.com/macros/s/AKfycbyb3su7Skjsz7klHnZtR3aK0TulAU7OVGz6pf3EMLmijHl_p5w4TiJ2IMRLU6_q2yBZCQ/exec"></iframe>
+  <iframe src="https://script.google.com/macros/s/AKfycbzPwS5wltUyc-Y0z8UZWBSa241eKBEX9XDgGB0poo-TzNZtlOKKr-puSqzyY6z7xTgo1w/exec"></iframe>
 </body>
 </html>
