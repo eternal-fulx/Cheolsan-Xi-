@@ -10,9 +10,13 @@
       padding: 0;
       width: 100%;
       height: 100%;
-      min-height: 100dvh; /* 모바일 동적 뷰포트 대응 */
+      min-height: 100dvh;
       background-color: #ffffff;
       overflow: hidden;
+      /* 폰트 깨짐 방지 및 선명도 향상 */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
     }
     iframe {
       width: 100%;
@@ -21,11 +25,11 @@
       border: none;
       outline: none;
       display: block;
-      -webkit-overflow-scrolling: touch; /* iOS 스크롤 부드럽게 처리 */
+      -webkit-overflow-scrolling: touch;
     }
   </style>
 </head>
 <body>
-  <iframe src="https://script.google.com/macros/s/AKfycbz9drv88LUGu9Mj3SqERGs-BPaVL26ofzK_o4S4Y-yUciYoa8rewwFcKfqhJZZs7YryIw/exec"></iframe>
+  <iframe src="https://script.google.com/macros/s/AKfycbzEquFM-39XnaEtCrREjA0rNqYYR6UvXXcL1rswUJ8SEW6OYQIWqLt4L_2jelOp9hcx0g/exec"></iframe>
 </body>
 </html>
